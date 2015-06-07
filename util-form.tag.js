@@ -13,7 +13,7 @@ $(document).on('DOMNodeInserted', '.error', function(e) {
 	
     element = e.target;
     
-	dataLayer.push({event:'gaevent', eventCategory:'ERROR', eventAction: 'Contactar', eventLabel: element.textContent});
+	dataLayer.push({event:'gaEvent', eventCategory:'ERROR', eventAction: 'Contactar', eventLabel: element.textContent});
     
 	element.getAttribute('for');
 
